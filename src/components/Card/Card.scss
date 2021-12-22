@@ -1,0 +1,23 @@
+.card {
+//   margin-bottom: 20px;
+
+  a{
+      text-decoration: none;
+  }
+
+  button {
+    padding: 10px 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
+    background: none;
+    cursor: pointer;
+
+    &:hover{
+        box-shadow: -2px 2px 9px 0px rgba(26, 26, 26, 0.2);
+    }
+  }
+}

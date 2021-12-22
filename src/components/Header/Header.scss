@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  height: 40px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .navLinksContainer {
+    display: flex;
+    justify-content: space-evenly;
+
+    .navLink {
+      text-decoration: none;
+      margin-right: 10px;
+      color: #424242;
+      width: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background-color: #93de8a;
+      outline: none;
+      cursor: pointer;
+      border-radius: 10px;
+
+      &:hover {
+        box-shadow: -2px 2px 9px 0px rgba(26, 26, 26, 0.2);
+      }
+    }
+
+    .active{
+        background-color: #7fc976;
+        color: white;
+        padding: 5px 10px;
+        font-size: 14px;
+        box-shadow: -2px 2px 9px 0px rgba(26, 26, 26, 0.2);
+    }
+  }
+}
